@@ -28,11 +28,11 @@ public class Main {
                         .max(Comparator.comparingInt(ep -> ep.getCharacters().size()))
                         .orElse(null);
 
-                System.out.println("Объект info:");
-                System.out.println("Count: " + info.getCount());
-                System.out.println("Pages: " + info.getPages());
-                System.out.println("Next: " + info.getNext());
-                System.out.println("Prev: " + info.getPrev());
+                // System.out.println("Объект info:");
+                // System.out.println("Count: " + info.getCount());
+                // System.out.println("Pages: " + info.getPages());
+                // System.out.println("Next: " + info.getNext());
+                // System.out.println("Prev: " + info.getPrev());
                 if (episodeWithMaxCharacters != null) {
                     System.out.println("Quantity of characters: " + episodeWithMaxCharacters.getCharacters().size());
                     System.out.println("Episode ID: " + episodeWithMaxCharacters.getId());
